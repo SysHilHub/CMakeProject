@@ -1,0 +1,33 @@
+https://github.com/SysHilHub/CMakeProject
+
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+git version
+git init
+git clone <your project URL>
+
+
+git add
+git add your_file_name
+git add *
+
+git rm <your_file_name>
+
+git commit -m "Basic Information"
+git pull
+git pull <remote_url>
+
+git push
+git push -u <short_name> <your_branch_name>
+
+git tag -a V0.1 -m "Tag Description Text"
+git status
+
+To List all Branches
+git branch
+git checkout <branch_name>
+Also, you can create and checkout to a branch in a single like, here is the usage for that 
+git checkout -b <your_new_branch_name>
+
+git log 
+git shortlog
